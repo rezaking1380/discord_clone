@@ -9,9 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3",
     "@clerk/nextjs": "^4.23.2",
     "@emoji-mart/data": "^1.1.2",
     "@emoji-mart/react": "^1.1.1",
@@ -46,9 +43,12 @@
     "livekit-client": "^1.13.0",
     "livekit-server-sdk": "^1.2.6",
     "lucide-react": "^0.268.0",
+    "next": "14.0.3",
     "next-themes": "^0.2.1",
     "postcss": "8.4.28",
     "query-string": "^8.1.0",
+    "react": "^18",
+    "react-dom": "^18",
     "react-dropzone": "^14.2.3",
     "react-hook-form": "^7.45.4",
     "socket.io": "^4.7.2",
@@ -63,14 +63,14 @@
     "zustand": "^4.4.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "typescript": "^5"
   }
 }
