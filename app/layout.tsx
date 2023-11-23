@@ -22,13 +22,14 @@ export default function RootLayout({
       <html lang="en" suppressHydrationWarning>
         <body className={cn(
           font.className,
-          "bg-white dark:bg-[#313338]"
+          "dark:bg-[#313338]"
         )}>
           <ThemeProvider
           attribute="class"
           defaultTheme="dark"
-          enableSystem={false}
+          enableSystem
           storageKey="discord-theme"
+          disableTransitionOnChange
           >
           {children}
           </ThemeProvider>
