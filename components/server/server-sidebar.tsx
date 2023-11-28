@@ -56,7 +56,7 @@ export const ServerSidebar = async ({serverId}:ServerSidebarProps) => {
         server={server}
         role={role}
       />
-      <ScrollArea className="flex-1 px-3">
+      {/* <ScrollArea className="flex-1 px-3">
         <div className="mt-2">
           <ServerSearch
             data={[
@@ -179,7 +179,7 @@ export const ServerSidebar = async ({serverId}:ServerSidebarProps) => {
             </div>
           </div>
         )}
-      </ScrollArea>
+      </ScrollArea> */}
     </div>
     )
 }
